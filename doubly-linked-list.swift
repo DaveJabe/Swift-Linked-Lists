@@ -206,13 +206,13 @@ struct DLinkedList<T> {
 
 var list = DLinkedList<String>()
 
-let coolNode = DNode(value: "mcflurry")
+let coolNode = DNode(value: "blueberries")
 
-list.prepend(value: "mcdouble")
-list.prepend(value: "spicy crispy chicken sandwich")
-list.prepend(value: "diet coke")
-list.append(value: "quarter pounder w cheese")
-list.insert(value: "big mac sauce", at: 2)
+list.prepend(value: "strawberries")
+list.prepend(value: "watermelon")
+list.prepend(value: "oranges")
+list.append(value: "lemons")
+list.insert(value: "apples", at: 2)
 list.insert(node: coolNode, at: 3)
 
 list.printList()
